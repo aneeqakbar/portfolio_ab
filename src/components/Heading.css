@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+.heading{
+    font-family: Ubuntu;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 110px;
+    animation: headingAnimation 1s linear forwards;
+}
+.heading:nth-child(1){
+    color: white;
+}
+.heading{
+    color: #03a9f4;
+    /* -webkit-text-stroke: 2px red; */
+}
+.heading_title{
+    margin: 0;
+}
+
+@keyframes headingAnimation {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+      clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+      /* -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%); */
+  }
+  50% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  100% {
+      -webkit-clip-path: polygon(200% 0, 250% 100%, 0 100%, 0 0%);
+      clip-path: polygon(200% 0, 250% 100%, 0% 100%, 0 0%);
+  }
+}
+
+.heading_link{
+    display: inline-block;
+    transform: translate(0px,0px);
+    animation: slideRight .2s ease-in-out forwards;
+}
+@keyframes slideRight {
+    0%{
+        transform: translate(0px,-5px);
+    }100%{
+        transform: translate(10%,0px);
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 810px){
+    .heading{
+        font-family: Ubuntu;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 85px;
+    }  
+}
+@media only screen and (max-width: 425px){
+    .heading{
+        font-family: Ubuntu;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 85px;
+    }   
+}
+

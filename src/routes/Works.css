@@ -1,0 +1,19 @@
+.main__works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.works__slide{
+    color: white;
+    text-align: center;
+}
+.works__slide > p:first-child{
+    font-size: small;
+}
+.works__slide > p:last-child{
+    font-size: small;
+}
+.works__slide > p:nth-child(3){
+    font-size: x-large;
+}

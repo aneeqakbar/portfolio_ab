@@ -1,0 +1,23 @@
+.heading__main{
+    min-width: 400px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 810px){
+    .heading__main{
+        min-width: 300px;
+        margin-top: 150px;
+        min-height:50vh;
+    }
+}
+@media only screen and (max-width: 425px){
+    .heading__main{
+        min-width: 300px;
+        margin-top: 150px;
+        min-height:50vh;
+    }
+
+}
