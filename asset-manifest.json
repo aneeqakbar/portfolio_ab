@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio_ab/static/css/main.0e65055b.chunk.css",
+    "main.js": "/portfolio_ab/static/js/main.75620769.chunk.js",
+    "main.js.map": "/portfolio_ab/static/js/main.75620769.chunk.js.map",
+    "runtime-main.js": "/portfolio_ab/static/js/runtime-main.9a26bc83.js",
+    "runtime-main.js.map": "/portfolio_ab/static/js/runtime-main.9a26bc83.js.map",
+    "static/js/2.00256ef7.chunk.js": "/portfolio_ab/static/js/2.00256ef7.chunk.js",
+    "static/js/2.00256ef7.chunk.js.map": "/portfolio_ab/static/js/2.00256ef7.chunk.js.map",
+    "static/js/3.2559db7f.chunk.js": "/portfolio_ab/static/js/3.2559db7f.chunk.js",
+    "static/js/3.2559db7f.chunk.js.map": "/portfolio_ab/static/js/3.2559db7f.chunk.js.map",
+    "index.html": "/portfolio_ab/index.html",
+    "static/css/main.0e65055b.chunk.css.map": "/portfolio_ab/static/css/main.0e65055b.chunk.css.map",
+    "static/js/2.00256ef7.chunk.js.LICENSE.txt": "/portfolio_ab/static/js/2.00256ef7.chunk.js.LICENSE.txt",
+    "static/media/fiverr.e4453fa9.png": "/portfolio_ab/static/media/fiverr.e4453fa9.png",
+    "static/media/font-awesome.min.css": "/portfolio_ab/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/github.6c9f45e1.png": "/portfolio_ab/static/media/github.6c9f45e1.png",
+    "static/media/myPic1.961e6155.jpeg": "/portfolio_ab/static/media/myPic1.961e6155.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a26bc83.js",
+    "static/js/2.00256ef7.chunk.js",
+    "static/css/main.0e65055b.chunk.css",
+    "static/js/main.75620769.chunk.js"
+  ]
+}
