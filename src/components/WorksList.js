@@ -3,19 +3,9 @@ import WorkComponent from "./WorkComponent";
 
 let works = [
   {
-    content: "Django Full Featured Ecommerce Website",
-    imgUrl: "https://i.ibb.co/DpF37p5/2021-06-25-09-03-aneeq-ecommerce-herokuapp-com.pngz",
-    link: "https://aneeq-ecommerce.herokuapp.com/"
-  },
-  {
-    content: "FaceBook Clone With ReactJs",
-    imgUrl: "https://i.ibb.co/ZM5jK8M/2021-06-26-12-29-fb-clone-14f33-firebaseapp-com.png",
-    link: "https://fb-clone-14f33.firebaseapp.com/"
-  },
-  {
-    content: "Netflix Clone With ReactJs",
-    imgUrl: "https://i.ibb.co/4NR2v0w/2021-06-26-12-40-netflix-clone-6825f-firebaseapp-1.png",
-    link: "https://netflix-clone-6825f.firebaseapp.com/"
+    content: "PUBGM Conquerer Player",
+    imgUrl: "https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg",
+    link: "https://play.google.com/store/apps/details?id=com.tencent.ig&hl=en&gl=US"
   },
 ];
 

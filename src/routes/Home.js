@@ -3,7 +3,7 @@ import React,{useContext, useState} from 'react'
 import Headings from '../components/Headings';
 import Picture from '../components/Picture';
 import TextLogo from '../components/TextLogo';
-import profilePic from '../media/myPic1.jpg'
+import profilePic from '../media/myPic1.jpeg'
 
 import {motion} from 'framer-motion'
 import {MotionContext} from '../Contexts.js'
@@ -12,7 +12,7 @@ function Home() {
     const [headings, setHeadings] = useState(
     [{title:'Hello.',onhover:'About',link:'/about'},
     {title:'I am',onhover:'Work',link:'/work'},
-    {title:'Aneeq',onhover:'Contact',link:'/contact'}])
+    {title:'Abeer',onhover:'Contact',link:'/contact'}])
 
     const context = useContext(MotionContext)
 

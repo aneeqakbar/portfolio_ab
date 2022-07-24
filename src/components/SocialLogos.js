@@ -8,7 +8,7 @@ import Linkedin from '../media/linkedin.jpg';
 function SocialLogos() {
     return (
         <div className={"social_logos"}>
-            <a href="https://github.com/aneeqakbar" target='_blank' rel='noreferrer'>
+            {/* <a href="https://github.com/aneeqakbar" target='_blank' rel='noreferrer'>
                 <img src={Github} alt=""/>
             </a>
             <a href="https://www.fiverr.com/aneeqfb" target='_blank' rel='noreferrer'>
@@ -16,7 +16,7 @@ function SocialLogos() {
             </a>
             <a href="https://www.linkedin.com/in/aneeq-akbar-8794b3142/" target='_blank' rel='noreferrer'>
                 <img src={Linkedin} alt=""/>
-            </a>
+            </a> */}
         </div>
     )
 }

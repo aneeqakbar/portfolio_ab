@@ -44,10 +44,10 @@ export default class Navbar extends Component {
                 <div className={'about__body__upper'}>
                     <div className={'about__heading__cont'}>
                         <p className={'about__heading'}>
-                            I design <span style={{color:'red'}}>&</span> build <br/> <span style={{color:'#03a9f4'}}>Awesome</span> Websites
+                            I play <span style={{color:'red'}}>PUBGM</span> <br/> <span style={{color:'#03a9f4'}}>All</span> The Time
                         </p>   
                     </div>
-                    <Link
+                    {/* <Link
                         className="about__down__arrow"
                         activeClass="active"
                         to="about__body__bottom"
@@ -57,9 +57,9 @@ export default class Navbar extends Component {
                         duration={500}
                     >
                         <img src={downArrow} alt="Scroll Down" />
-                    </Link>
+                    </Link> */}
                 </div>
-                <div className={'about__body__bottom blurred-box'} id={'about__body__bottom'}>
+                {/* <div className={'about__body__bottom blurred-box'} id={'about__body__bottom'}>
                     <p className={'about__text'}>
                     <h2>About</h2>
                     Hey, Aneeq here. A Full-Stack Python (Django) Web Dev. I can build site from scratch and update existing sites. I have experience in Website development. Mainly focused on: Django, React JS, Django rest framework, HTML5, CSS3, Bootstrap4 I create responsive and SEO-friendly user interfaces using React JS, Bootstrap.
@@ -87,7 +87,7 @@ export default class Navbar extends Component {
                     Regards<br/>
                     Aneeq Akbar Khan
                     </p>
-                </div>
+                </div> */}
                 </div>
             </motion.div>
             <button className={'scroll_to_top'} onClick={()=>{this.scrollToTop()}}>
